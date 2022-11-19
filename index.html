@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>GET KWIZED</title>
+    <link rel="stylesheet" href="kwiz.css">
+</head>
+
+<body>
+<div id="landing">
+   <h1 class="title">Get KWIZed!</h1>
+   <p>You have 75 seconds to complete the quiz! Every wrong answer takes off 15 seconds.</p>
+   <button type="button" onclick="startQuiz()" class="start-button">Start Quiz</button>
+</div>
+
+
+<div id="quiz" class="hidden">
+    <div class="time-remaining">Time Remaining <span id="time-remaining"></span> seconds</div>
+    <div id="current-question"></div>
+</div>
+
+<div id="name" class="hidden">
+    <h1 class="title">KWIZ complete!</h1>
+    <p>Your final score is <span id="final-score"></span></p>
+    <input type="text" maxlength="3" id="initials" onkeyup="setInitials()" />
+    <button type="button" disabled id="initial-save" onclick="saveInitials()">Save</button>
+</div>
+
+
+
+<script src="kwiz.js"></script>
+</body>
+
+
+</html>
