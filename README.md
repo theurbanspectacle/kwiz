@@ -6,7 +6,7 @@
 
 ## Usage
 
-- Simply click the button to start and select your answers.
+- Simply click the button to start when you're ready and select your answers.
     ```md
 ![Photo of Homepage](assets/images/PageExample.png)
     ```
