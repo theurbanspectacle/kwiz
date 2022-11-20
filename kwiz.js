@@ -21,6 +21,77 @@ var questions = [
         ],
         answer: 0,
     },
+    { 
+        question: 'Who was the first president?',
+        answers: [
+            'George Washington',
+            'Mila Kunis',
+            'Miranda Cosgrove',
+            'Starbucks',
+        ],
+        answer: 0,
+    },
+    { 
+        question: 'Which game can you play on Battle.Net?',
+        answers: [
+            'World of Warcraft',
+            'League of Legends',
+            'Guild Wars',
+            'The Elder Scrolls',
+        ],
+        answer: 0,
+    },
+    { 
+        question: 'What is the highest-grossing arcade game of all time?',
+        answers: [
+            'Space Invaders',
+            'Pacman',
+            'Donkey Kong',
+            'Mario Bros',
+        ],
+        answer: 1,
+    },
+    { 
+        question: 'Who is the protagonist in Legends of Zelda?',
+        answers: [
+            'Justin Timberlake',
+            'Ganondorf',
+            'Zelda',
+            'Link',
+        ],
+        answer: 3,
+    },
+    { 
+        question: 'What is the best-selling video game console of all time that sold over 155 million consoles worldwide?',
+        answers: [
+            'Nintendo GameCube',
+            'PlayStation 2',
+            'Xbox',
+            'SNES'
+        ],
+        answer: 1,
+    },
+    { 
+        question: 'Who was the moscot of Sega?',
+        answers: [
+            'Tails',
+            'Mario',
+            'Sonic',
+            'Plumbus'
+        ],
+        answer: 1,
+    },
+    { 
+        question: 'What female video game character would eventually be portrayed by Angelina Jolie in a movie??',
+        answers: [
+            'Cortana',
+            'Chun-Li',
+            'Lara Croft',
+            'Bayonetta'
+        ],
+        answer: 2,
+    },
+    
 ];
 
 function renderQuestion() {
